@@ -1,0 +1,84 @@
+2025-09-20T14:59:34.545Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T14:59:35.709Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:00:56.768Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:00:58.268Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:03.190Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:06.670Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:10.007Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:14.926Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:17.197Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:19.000Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:20.264Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:22.144Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:01:23.331Z [chess_tournament] error: uncaughtException: sendErrorResponse is not defined
+ReferenceError: sendErrorResponse is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/helper/send.error.response.js:4:34
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-20T15:10:36.256Z [chess_tournament] error: uncaughtException: sel is not defined
+ReferenceError: sel is not defined
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/router/admin.route.js:13:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
