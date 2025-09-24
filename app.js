@@ -3,6 +3,8 @@ import consfig from "config"
 import sequelize from "./config/db.js"
 import errorHendling from "./middlewares/errors/error.hendling.js"
 import cookieParser from "cookie-parser"
+console.log("a");
+
 import mainApi from "./router/index.js"
 
 

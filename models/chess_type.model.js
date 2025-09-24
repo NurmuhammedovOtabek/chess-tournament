@@ -12,7 +12,7 @@ const Chess_type = sequelize.define("chess_type",{
         allowNull: false
     },
     bese_time_minutes:{
-        type: DataTypes.ENUM(1,2,3,5,10,15,30),
+        type: DataTypes.ENUM("1","2","3","5","10","15","30"),
         allowNull: false
     },
     increment_seconds: {

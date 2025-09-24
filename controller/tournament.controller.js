@@ -21,11 +21,14 @@ export const CreateTournament = async (req, res) => {
     }
     
     const newTournament = await Tournament.create({
-      full_name,
-      email,
-      password: hashedPassword,
-      is_creator,
-      is_active,
+      name,
+      type_id,
+      address,
+      location,
+      status,
+      rounds,
+      start_date,
+      end_date,
     });
     res.status(201).json({
       message: "Create successfully",
@@ -80,8 +83,8 @@ export const findByIdTournaments = async (req, res) => {
 
 export const filtrTournament = async (req, res) => {
   try {
-    const { full_name } = req.query;
-    const findTournament = await Tournament.findAll({ where: { full_name } });
+    const { name } = req.query;
+    const findTournament = await Tournament.findAll({ where: { name } });
     if (!findTournament) {
       return sendErrorResponse(
         { message: "Bunday Tournament mavjud emas" },
@@ -101,29 +104,28 @@ export const filtrTournament = async (req, res) => {
 
 export const updateTournaments = async (req, res) => {
   try {
-    const { full_name, email, password, is_active } = req.body;
+    const {
+      name,
+      type_id,
+      address,
+      location,
+      status,
+      rounds,
+      start_date,
+      end_date,
+    } = req.body;
     const id = req.params.id;
 
-    const Tournament = await Tournament.findByPk(id);
-    if (!Tournament) {
+    const tournament = await Tournament.findByPk(id);
+    if (!tournament) {
       return sendErrorResponse(
         { message: "Bunday Tournament mavjud emas" },
         res,
         404
       );
     }
-    if (Tournament.email != email) {
-      const filtr = await Tournament.findOne({ where: { email } });
-      if (filtr) {
-        return sendErrorResponse(
-          { message: "Bunday emaillik Tournament mavjud" },
-          res,
-          400
-        );
-      }
-    }
-    if (Tournament.full_name != full_name) {
-      const filtr = await Tournament.findOne({ where: { full_name } });
+    if (tournament.name != name) {
+      const filtr = await Tournament.findOne({ where: { name } });
       if (filtr) {
         return sendErrorResponse(
           { message: "Bunday ismli Tournament mavjud" },
@@ -132,17 +134,17 @@ export const updateTournaments = async (req, res) => {
         );
       }
     }
-    const coparePassword = await bcrypt.compare(Tournament.password, password);
-    let hashedPassword;
-    if (!coparePassword) {
-      hashedPassword = await bcrypt.hash(password, 7);
-    }
+    
     const updateTournament = await Tournament.update(
       {
-        full_name,
-        email,
-        password: hashedPassword,
-        is_active,
+        name,
+        type_id,
+        address,
+        location,
+        status,
+        rounds,
+        start_date,
+        end_date,
       },
       {
         where: { id },

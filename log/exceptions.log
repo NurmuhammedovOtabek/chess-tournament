@@ -82,3 +82,57 @@ ReferenceError: sel is not defined
     at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-24T09:45:14.464Z [chess_tournament] error: uncaughtException: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+    at new Association (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\base.js:13:13)
+    at new HasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\has-many.js:28:5)
+    at tournament_player.hasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\mixin.js:22:25)
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/models/match.model.js:61:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-24T09:45:15.752Z [chess_tournament] error: uncaughtException: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+    at new Association (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\base.js:13:13)
+    at new HasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\has-many.js:28:5)
+    at tournament_player.hasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\mixin.js:22:25)
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/models/match.model.js:61:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-24T09:45:25.453Z [chess_tournament] error: uncaughtException: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+    at new Association (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\base.js:13:13)
+    at new HasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\has-many.js:28:5)
+    at tournament_player.hasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\mixin.js:22:25)
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/models/match.model.js:61:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-24T09:45:28.612Z [chess_tournament] error: uncaughtException: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+    at new Association (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\base.js:13:13)
+    at new HasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\has-many.js:28:5)
+    at tournament_player.hasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\mixin.js:22:25)
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/models/match.model.js:61:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-24T09:45:54.142Z [chess_tournament] error: uncaughtException: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias match in two separate associations. Aliased associations must have unique aliases.
+    at new Association (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\base.js:13:13)
+    at new HasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\has-many.js:28:5)
+    at tournament_player.hasMany (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\mixin.js:22:25)
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/models/match.model.js:61:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-09-24T09:48:06.675Z [chess_tournament] error: uncaughtException: You have used the alias tournament_player in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias tournament_player in two separate associations. Aliased associations must have unique aliases.
+    at new Association (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\base.js:13:13)
+    at new BelongsTo (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\belongs-to.js:25:5)
+    at match.<anonymous> (C:\Users\user\Desktop\najot talim\uy ishi fullstack\uy ishi 4-oy\shaxmat musobaqasi\node_modules\sequelize\lib\associations\mixin.js:70:25)
+    at file:///C:/Users/user/Desktop/najot%20talim/uy%20ishi%20fullstack/uy%20ishi%204-oy/shaxmat%20musobaqasi/models/match.model.js:64:7
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)

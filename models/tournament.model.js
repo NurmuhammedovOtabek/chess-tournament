@@ -1,5 +1,6 @@
 import {DataTypes} from "sequelize"
 import sequelize from "../config/db.js"
+import Chess_type from "./chess_type.model.js"
 
 const Tournament = sequelize.define("tournament",{
     id:{
@@ -47,5 +48,8 @@ const Tournament = sequelize.define("tournament",{
     timestamps:true,
     freezeTableName:true
 })
+
+Chess_type.hasMany(Tournament, {as: "tournament", foreignKey: "type_id"})
+Tournament.belongsTo(Chess_type, {as: "chess_type", foreignKey: "type_id"})
 
 export default Tournament 

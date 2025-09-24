@@ -4,6 +4,8 @@ export default async(req, res, next)=>{
     try{
         if(req.admin.id == req.params.id || req.admin.is_creator){
             next()
+        }else if(req.user.id == req.params.id){
+            next()
         }else{
             return sendErrorResponse({message: "Faqat shaxsiy malumotlarni korish mumkun"}, res, 403)
         }
