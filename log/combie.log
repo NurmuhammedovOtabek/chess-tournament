@@ -2,3 +2,13 @@
 2025-09-20T15:20:41.609Z [chess_tournament] error: Faqat shaxsiy malumotlarni korish mumkun
 2025-09-20T15:23:16.945Z [chess_tournament] error: Faqat shaxsiy malumotlarni korish mumkun
 2025-09-20T15:28:26.086Z [chess_tournament] error: jwtService.generateTokens is not a function
+2025-09-26T10:54:13.079Z [chess_tournament] error: WHERE parameter "name" has invalid "undefined" value
+2025-09-26T10:54:36.243Z [chess_tournament] error: WHERE parameter "name" has invalid "undefined" value
+2025-09-26T10:55:25.086Z [chess_tournament] error: INSERT или UPDATE в таблице "tournament" нарушает ограничение внешнего ключа "tournament_type_id_fkey"
+2025-09-26T10:57:39.179Z [chess_tournament] error: Auth header not found
+2025-09-26T11:00:13.038Z [chess_tournament] error: Auth header not found
+2025-09-26T11:00:50.478Z [chess_tournament] error: Cannot read properties of null (reading 'player_id')
+2025-09-26T11:08:52.151Z [chess_tournament] error: Cannot read properties of undefined (reading 'id')
+2025-09-26T11:10:44.476Z [chess_tournament] error: Cannot read properties of undefined (reading 'id')
+2025-09-26T11:20:20.998Z [chess_tournament] error: Cannot access 'i' before initialization
+2025-09-26T11:26:09.979Z [chess_tournament] error: a is not defined

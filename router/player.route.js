@@ -6,7 +6,7 @@ import admin_authGuard from "../middlewares/guards/admin_auth.guard.js";
 
 const router = Router()
 
-router.post("/", admin_authGuard,validate(playerSchema), CreatePlayer)
+router.post("/", validate(playerSchema), CreatePlayer)
 router.get("/", getAllPlayer)
 router.get("/filtr", filtrPlayer)
 router.get("/:id", findByIdPlayers)

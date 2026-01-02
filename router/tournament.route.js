@@ -13,7 +13,7 @@ import admin_authGuard from "../middlewares/guards/admin_auth.guard.js";
 
 const router = Router();
 
-router.post("/", admin_authGuard, validate(tournamentSchema), CreateTournament);
+router.post("/", CreateTournament);
 router.get("/", getAllTournament);
 router.get("/filtr", filtrTournament);
 router.get("/:id", admin_authGuard, findByIdTournaments);

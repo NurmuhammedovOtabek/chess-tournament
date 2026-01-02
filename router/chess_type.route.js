@@ -7,7 +7,7 @@ import admin_authGuard from "../middlewares/guards/admin_auth.guard.js";
 
 const router = Router()
 
-router.post("/", validate(chessTypeSchema), admin_authGuard,CreateChess_type)
+router.post("/", validate(chessTypeSchema),CreateChess_type)
 router.get("/", admin_authGuard, getAllChess_type);
 router.get("/filtr", admin_authGuard, filtrChess_type_category);
 router.get("/:id", admin_authGuard, findByIdChess_types);

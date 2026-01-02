@@ -1,4 +1,5 @@
 import sendErrorResponse from "../helper/send.error.response.js";
+import Match from "../models/match.model.js";
 import Tournament_player from "../models/tournament_player.model.js";
 
 
@@ -11,14 +12,14 @@ export const CreateTournament_player = async (req, res) => {
         rank,
         is_active
     } = req.body;
-    const filtr1 = await Tournament_player.findOne({ where: { tournament_id } });
-    if (filtr1.player_id == player_id) {
-      return sendErrorResponse(
-        { message: "Bunday namelik Tournament_player mavjud" },
-        res,
-        400
-      );
-    }
+    // const filtr1 = await Tournament_player.findOne({ where: { tournament_id } });
+    // if (filtr1.player_id == player_id) {
+    //   return sendErrorResponse(
+    //     { message: "Bunday namelik Tournament_player mavjud" },
+    //     res,
+    //     400
+    //   );
+    // }
 
     const newTournament_player = await Tournament_player.create({
       tournament_id,
@@ -145,6 +146,75 @@ export const delTournament_player = async (req, res) => {
       message: "Deleted seccessfully",
       statusCode: 200,
     });
+  } catch (error) {
+    sendErrorResponse(error, res, 500);
+  }
+};
+
+
+export const sorov = async (req, res) => {
+  try {
+    
+    let game = []
+    const players = await Tournament_player.findAll({order:[["rank", "ASC"]]});
+    if (players.length === 0) {
+      return sendErrorResponse(
+        { message: "Hali Tournament_playerlar mavjud emas" },
+        res,
+        204
+      );
+    }
+    // console.log(players);
+    
+    while (players.length>0) {
+      let gamer = [];
+      let i = 1;
+      while (true) {
+        if(i === players.length){
+          console.log(i);
+          break
+        }
+          
+        let p1 = players[0].id
+        let p2 = players[i].id
+        const match = await Match.findAll({
+          where: { white_player_id: p1, black_player_id: p2},
+        });
+        if (match.length !== 0) {
+          const match2 = await Match.findAll({
+            where: { white_player_id: p2, black_player_id: p1 },
+          });
+          if (match2.length !== 0) {
+            i++;
+          } else {
+            gamer.push(players[0]);
+            gamer.push(players[i]);
+            players.splice(i, 1);
+            players.splice(0, 1);
+            game.push(gamer);
+
+            break
+          }
+        } else {
+          gamer.push(players[0]);
+          gamer.push(players[i]);
+          players.splice(i, 1);
+          players.splice(0, 1);
+          game.push(gamer)
+          console.log(i);
+
+          break
+        }
+        if(i=== players.length){
+          console.log(i);
+          
+          break
+        }
+        
+      }
+    }
+
+    res.send(game)
   } catch (error) {
     sendErrorResponse(error, res, 500);
   }
